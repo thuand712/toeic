@@ -12,7 +12,7 @@ public class ListenGuidelineTest {
 
     ListenGuidelineDao dao;
 
-    /*@BeforeTest
+    @BeforeTest
     public void initData(){
         dao = new ListenGuidelineDaoImpl();
     }
@@ -21,6 +21,6 @@ public class ListenGuidelineTest {
     public void checkFindRoleByUser(){
         Map<String, Object>property = new HashMap<>();
         Object[] objects = dao.findByProperty(property,null,null,0,2);
-    }*/
+    }
 
 }
